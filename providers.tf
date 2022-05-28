@@ -13,3 +13,9 @@ provider "google" {
   region  = "us-west1"
   zone    = "us-west1-b"
 }
+
+provider "google-beta" {
+  project = "DEFINIR"
+  region  = "us-west1"
+  zone    = "us-west1-b"
+}
